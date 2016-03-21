@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DemoView</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="btn_add">Add</string>
+    <string name="tvname">Họ Tên :</string>
+    <string name="tvmsv">Mã Sinh Viên</string>
+    <string name="tvlop">Lớp</string>
+    <string name="tvnsinh">Ngày Sinh</string>
+</resources>
