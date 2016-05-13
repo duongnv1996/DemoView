@@ -9,15 +9,19 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Recyclerview" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/fragment"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Fragment" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
             android:title="Tools" />
+        <item
+            android:id="@+id/nav_sqlite"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="SQLite Android" />
     </group>
 
     <item android:title="Communicate">

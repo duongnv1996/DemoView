@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+
+        <item
+            android:icon="@drawable/bus"
+            android:title="Item 1"
+            android:id="@+id/item1"
+            />
+
+
+        <item
+            android:icon="@android:drawable/btn_radio"
+            android:title="Item 1"
+            android:id="@+id/item2"
+            />
+
+        <item
+            android:icon="@android:drawable/btn_plus"
+            android:title="Item 1"
+            android:id="@+id/item3"
+            ></item>
+
+        <item
+            android:icon="@android:drawable/divider_horizontal_dark"
+            android:title="Item 1"
+            android:id="@+id/item4"
+            ></item>
+    </group>
+</menu>

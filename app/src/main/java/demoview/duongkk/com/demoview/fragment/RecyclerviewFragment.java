@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,10 +41,6 @@ public class RecyclerviewFragment extends Fragment implements View.OnClickListen
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view =inflater.inflate(R.layout.fragment_recyclerview,null,false);
         initView(view);
-
-
-
-
         return view;
     }
     public void initView(View view){
@@ -64,6 +61,7 @@ public class RecyclerviewFragment extends Fragment implements View.OnClickListen
         mRecyclerview.setAdapter(mAdapter);
         mRecyclerview.setHasFixedSize(true);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
+       // RecyclerView.LayoutManager layoutManager1= new StaggeredGridLayoutManager();
         mRecyclerview.setLayoutManager(layoutManager);
 
     }
@@ -83,7 +81,6 @@ public Student getDataFromView(){
         return null;
     }
 }
-
     @Override
     public void onClick(View v) {
         int id =v.getId();

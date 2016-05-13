@@ -10,4 +10,7 @@
     <string name="tvmsv">Mã Sinh Viên</string>
     <string name="tvlop">Lớp</string>
     <string name="tvnsinh">Ngày Sinh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Fragment 2</string>
 </resources>

@@ -23,8 +23,6 @@ public class AdapterRecyclerview extends RecyclerView.Adapter<AdapterRecyclervie
     public void setOnClickItem(OnClickItem onClickItem) {
         this.onClickItem = onClickItem;
     }
-
-
     public AdapterRecyclerview(List<Student> students) {
         this.students = students;
     }
@@ -70,12 +68,14 @@ public class AdapterRecyclerview extends RecyclerView.Adapter<AdapterRecyclervie
     public Student getItem(int pos){
         return students.get(pos);
     }
-    class RecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
-        public TextView tvName;
-        public TextView tvClass;
-        public TextView tvMsv;
-        public TextView tvBirth;
-        private LinearLayout layoutItem;
+
+
+       class RecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+           public TextView tvName;
+           public TextView tvClass;
+           public TextView tvMsv;
+           public TextView tvBirth;
+           private LinearLayout layoutItem;
         public RecyclerViewHolder(View itemView) {
             super(itemView);
 
@@ -86,6 +86,7 @@ public class AdapterRecyclerview extends RecyclerView.Adapter<AdapterRecyclervie
             layoutItem=(LinearLayout)itemView.findViewById(R.id.ll_item_rcv);
             layoutItem.setOnClickListener(this);
         }
+
         @Override
         public void onClick(View v) {
             onClickItem.onClick( getItem(getAdapterPosition()),getAdapterPosition());

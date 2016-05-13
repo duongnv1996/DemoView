@@ -9,6 +9,44 @@ public class Student {
     private String mMsv;
     private String mBirth;
 
+    // SQLite Student
+    private String mFirstName;
+    private String mLastName;
+    private int mId;
+    private int mMark;
+
+    public String getmFirstName() {
+        return mFirstName;
+    }
+
+    public void setmFirstName(String mFirstName) {
+        this.mFirstName = mFirstName;
+    }
+
+    public String getmLastName() {
+        return mLastName;
+    }
+
+    public void setmLastName(String mLastName) {
+        this.mLastName = mLastName;
+    }
+
+    public int getmId() {
+        return mId;
+    }
+
+    public void setmId(int mId) {
+        this.mId = mId;
+    }
+
+    public int getmMark() {
+        return mMark;
+    }
+
+    public void setmMark(int mMark) {
+        this.mMark = mMark;
+    }
+
     public String getmName() {
         return mName;
     }
